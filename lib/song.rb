@@ -1,7 +1,7 @@
 class Song
   attr_reader :name, :artist, :genre
 
-  @@all = all
+  @@all = []
 
   def initialize(name, artist, genre)
     @name = name
