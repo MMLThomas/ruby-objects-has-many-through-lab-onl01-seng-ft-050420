@@ -14,14 +14,6 @@ class Appointment
     @@all
   end
     
-  def patient
-    Patient.all.map{|a| a == self.patient}
-    
-  end
   
-  def doctor
-    Doctor.all.map{|d| d == self.doctor}
-    
-  end
     
 end
